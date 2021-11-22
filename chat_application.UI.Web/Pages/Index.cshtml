@@ -1,0 +1,21 @@
+﻿@page
+@{
+    ViewData["Title"] = "Chat";
+}
+
+<!-- Public chat -->
+<article class="wrapper">
+    <h1>Talk with everybody</h1>
+    <section class="user box_shadow_0"
+             onclick="openChat(this)"
+             data-id="12345678910"
+             data-name="Publico">
+        <span class="user_icon">P</span>
+        <p class="user_name">Public</p>
+        <span class="user_date"></span>
+    </section>
+    <h1>Users Connected</h1>
+</article>
+<!-- User chats -->
+<div class="main"></div>
+<div class="chats_wrapper"></div>
